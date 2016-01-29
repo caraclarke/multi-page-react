@@ -5,6 +5,7 @@ var Base = React.createClass({
     return (
       <div>
         <h1>Header</h1>
+        <p>Base</p>
         {this.props.children}
       </div>
     );
